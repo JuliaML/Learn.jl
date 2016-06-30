@@ -1,5 +1,6 @@
 module Learn
 
-# package code goes here
+using Reexport
+@reexport using LearnBase
 
 end # module
