@@ -1,5 +1,5 @@
 
-for pkg in ("LearnBase", "Transformations", "ObjectiveFunctions", "Losses", "StochasticOptimization", "MLMetrics")
+for pkg in ("Transformations", "ObjectiveFunctions", "Losses", "StochasticOptimization", "MLMetrics")
 	try
 		avail = Pkg.available(pkg)
 		if !isempty(avail)
