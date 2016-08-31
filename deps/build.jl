@@ -1,5 +1,6 @@
 
-for pkg in ("Transformations", "ObjectiveFunctions", "Losses", "StochasticOptimization", "MLMetrics")
+for pkg in ("Transformations", "ObjectiveFunctions", "Losses", "StochasticOptimization", "MLMetrics", "CatViews")
+    org = pkg == "CatViews" ? "ahwillia" : "JuliaML"
 	try
 		avail = Pkg.available(pkg)
 		if !isempty(avail)
@@ -8,7 +9,7 @@ for pkg in ("Transformations", "ObjectiveFunctions", "Losses", "StochasticOptimi
 		end
 	catch
 		# install it
-		Pkg.clone("https://github.com/JuliaML/$pkg.jl")
+		Pkg.clone("https://github.com/$org/$pkg.jl")
 		Pkg.build(pkg)
 	end
 end
