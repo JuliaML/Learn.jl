@@ -1,5 +1,7 @@
 # Learn
 
+[![Build Status](https://travis-ci.org/JuliaML/Learn.jl.svg?branch=master)](https://travis-ci.org/JuliaML/Learn.jl)
+
 An all-in-one workbench, which simply imports and re-exports the packages below.  This is a convenience wrapper for an easy way to get started with the JuliaML ecosystem.
 
 To get setup, this should be enough:
