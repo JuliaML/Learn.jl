@@ -1,7 +1,7 @@
 using Learn
 using Base.Test
 
-passed = true
+failed = []
 @testset "Learn" begin
     for pkg in ["LearnBase",
                 "Losses",
@@ -18,10 +18,15 @@ passed = true
             @test true
         catch err
             warn(pkg, " had test errors")
+            push!(failed, pkg)
             @test false
-            # passed = false
         end
     end
+
+    if !isempty(failed)
+        warn("The following packages failed the tests:\n    $(join(failed, "\n    "))")
+    end
 end
+
 
 # @test passed
