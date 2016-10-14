@@ -4,7 +4,7 @@ module Learn
 
 using Reexport
 @reexport using LearnBase
-@reexport using Losses
+@reexport using LossFunctions
 @reexport using Transformations
 @reexport using ObjectiveFunctions
 @reexport using StochasticOptimization

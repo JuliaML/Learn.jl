@@ -1,5 +1,5 @@
 
-for pkg in ("Transformations", "ObjectiveFunctions", "Losses", "StochasticOptimization", "MLMetrics", "Penalties")
+for pkg in ("Transformations", "ObjectiveFunctions", "LossFunctions", "StochasticOptimization", "MLMetrics", "Penalties")
     org = pkg == "CatViews" ? "ahwillia" : "JuliaML"
 	try
 		avail = Pkg.available(pkg)

@@ -4,7 +4,7 @@ using Base.Test
 failed = []
 @testset "Learn" begin
     for pkg in ["LearnBase",
-                "Losses",
+                "LossFunctions",
                 "Transformations",
                 "Penalties",
                 "ObjectiveFunctions",
