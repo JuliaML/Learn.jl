@@ -6,7 +6,7 @@ failed = []
     for pkg in ["LearnBase",
                 "LossFunctions",
                 "Transformations",
-                "Penalties",
+                "PenaltyFunctions",
                 "ObjectiveFunctions",
                 "StochasticOptimization",
                 "MLMetrics",

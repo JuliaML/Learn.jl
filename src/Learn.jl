@@ -7,6 +7,7 @@ using Reexport
 @reexport using LossFunctions
 @reexport using Transformations
 @reexport using ObjectiveFunctions
+@reexport using PenaltyFunctions
 @reexport using StochasticOptimization
 # @reexport using MLDataUtils
 @reexport using MLMetrics
