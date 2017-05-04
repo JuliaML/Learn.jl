@@ -5,3 +5,5 @@ LearnBase
 LossFunctions
 MLDataUtils
 CatViews
+PenaltyFunctions
+LearningStrategies
