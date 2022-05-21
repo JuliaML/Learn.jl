@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This package is deprecated.
+
 # Learn
 
 [![Build Status](https://travis-ci.org/JuliaML/Learn.jl.svg?branch=master)](https://travis-ci.org/JuliaML/Learn.jl)
